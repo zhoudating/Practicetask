@@ -1,0 +1,30 @@
+*{
+    margin:0;padding:0;
+}
+body{  font-family: "Adobe 黑体 Std R";background-color:black;margin:0 auto;}
+.main{background-color: gainsboro;margin:0 20px 0 20px;padding-top:20px;
+       }
+a:hover{background-color: aqua}
+p{
+    text-indent: 30px;
+}
+
+.header{  background-color:#333333; }
+.header img{  width:100px;height:60px;  margin-left:40px;  }
+.header ul{  float:right;  }
+.header ul li {  float:left; padding:20px;  list-style: none;  }
+.header a{  text-decoration: none;  color:white;  }
+
+
+.text1{margin:20px;background-color: white;line-height: 30px;padding:20px;}
+.text h2 {text-align:left;line-height: 50px; font-size: 26px;}
+.text h3{text-align: left;color: darkgray;font-weight: 600;line-height: 40px;font-size: 18px;  }
+.author{color: darkgray;text-align: left;font-weight: 400;line-height: 40px;font-size: 18px;  }
+.texttime{color: darkgray;text-align: left;font-weight: 400;line-height: 40px; font-size: 18px;  }
+
+.text2{background-color: white;line-height: 30px;  margin:20px;padding:20px}
+.text2 li{
+    list-style: none;
+}
+
+
