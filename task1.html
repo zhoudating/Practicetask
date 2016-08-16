@@ -54,22 +54,38 @@
 
 <div class="picture">
     <h2>图片</h2>
-    <p>好看的图片</p>
-    <img src=".idea/pictures/樱花.jpg" style="height: 90px;weight:90px"/>
-    <p>好看的图片</p>
-    <img src=".idea/pictures/樱花.jpg" style="height: 90px;weight:90px"/>
-    <p>好看的图片</p>
-    <img src=".idea/pictures/樱花.jpg" style="height: 90px;weight:90px"/>
-    <p>好看的图片</p>
-    <img src=".idea/pictures/樱花.jpg" style="height: 90px;weight:90px"/>
-    <p>好看的图片</p>
-    <img src=".idea/pictures/樱花.jpg" style="height: 90px;weight:90px"/>
-    <p>好看的图片</p>
-    <img src=".idea/pictures/樱花.jpg" style="height: 90px;weight:90px"/>
-    <p>好看的图片</p>
-    <img src=".idea/pictures/樱花.jpg" style="height: 90px;weight:90px"/>
-    <p>好看的图片</p>
-    <img src=".idea/pictures/樱花.jpg" style="height: 90px;weight:90px"/>
+    <div class="pic">
+       <p>好看的图片</p>
+       <img src=".idea/pictures/樱花.jpg" title="好好爱护" />
+    </div>
+    <div class="pic">
+       <p>好看的图片</p>
+       <img src=".idea/pictures/樱花.jpg" />
+    </div>
+    <div class="pic">
+       <p>好看的图片</p>
+       <img src=".idea/pictures/樱花.jpg" />
+    </div>
+    <div class="pic">
+       <p>好看的图片</p>
+       <img src=".idea/pictures/樱花.jpg" />
+    </div>
+    <div class="pic">
+       <p>好看的图片</p>
+        <img src=".idea/pictures/樱花.jpg" />
+    </div>
+    <div class="pic">
+        <p>好看的图片</p>
+        <img src=".idea/pictures/樱花.jpg" />
+    </div>
+    <div class="pic">
+        <p>好看的图片</p>
+        <img src=".idea/pictures/樱花.jpg" />
+    </div>
+    <div class="pic">
+        <p>好看的图片</p>
+        <img src=".idea/pictures/樱花.jpg" />
+    </div>
 </div>
 
 
@@ -110,7 +126,7 @@
             <td>表内容单元格</td>
             <td><a href="#">操作</a> </td>
         </tr>
-        <tr>
+        <tr class="tablesum">
             <td>总计</td>
             <td colspan="2">10000</td>
         </tr>
@@ -119,36 +135,45 @@
 
 
 <div class="form">
-<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
-<h2>侧栏注册窗口标题</h2>
-<inform>
-    <label for="mail">请输入邮箱地址</label>
+<h3>这里以后是一个侧栏，这是侧栏的标题</h3>
+<div class="formcontent">
+<inform class="formcontent1">
+    <div>
+    <label for="mail">请输入邮箱地址:</label>
        <input type="text" id="mail" value="这是一个文本框"/>
+    </div>
     <p>邮箱地址请安要求格式输入</p>
+    <div>
     <label for="psw">请输入密码：</label>
-       <input type="password" id="psw" name="mima" value="这是一个文本框"/>
-    <label for="psw1">请重复输入密码：</label>
+       <input type="password" id="psw" name="mima" value="这是一个文本框"/><br/>
+    </div>
+    <div>
+        <label for="psw1">请重复输入密码：</label>
        <input type="password" id="psw1" value="这是一个文本框"/>
+    </div>
     <p>密码请为6--16位英文数字</p>
 </inform>
 
-<inform>
-    性别<input type="radio" name="sex" id="male"><label for="male" >男</label>
+<inform  class="formcontent2">
+    <span>性别 </span><input type="radio" name="sex" id="male"><label for="male" >男</label>
         <input type="radio" name="sex" id="female"><label for="female">女</label>
-    城市<select>
+    <br/>
+        城市 <select>
           <option>北京</option>
           <option>shanghai</option>
           <option>chengdu</option>
         </select>
-    爱好<input type="checkbox" name="city" value="sports"/>运动
+        <br/>
+    爱好 <input type="checkbox" name="city" value="sports"/>运动
     <input type="checkbox" name="city" value="arts"/>艺术
     <input type="checkbox" name="city" value="science"/>科学
-    个人描述<textarea>这是一个多行输入框</textarea>
-    <input type="button" value="确认提交"/>
+        <br/>
+    个人描述 <textarea>这是一个多行输入框</textarea><br/>
+    <input type="button" class="button" value="确认提交">
 </inform>
 </div>
 </div>
-
+</div>
 
 <div class="footer">
 <p>版权所有</p>
