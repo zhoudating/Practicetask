@@ -2,29 +2,47 @@
     margin:0;padding:0;
 }
 body{  font-family: "Adobe 黑体 Std R";background-color:black;margin:0 auto;}
-.main{background-color: gainsboro;margin:0 20px 0 20px;padding-top:20px;
-       }
+.main{background-color: gainsboro;margin:0 20px 0 20px;padding-top:20px;overflow:auto;position:relative;}
 a:hover{background-color: aqua}
-p{
-    text-indent: 30px;
-}
+p{text-indent: 30px;}
+li{list-style: none;}
 
+/*header*/
 .header{  background-color:#333333; }
 .header img{  width:100px;height:60px;  margin-left:40px;  }
 .header ul{  float:right;  }
 .header ul li {  float:left; padding:20px;  list-style: none;  }
 .header a{  text-decoration: none;  color:white;  }
-
-
-.text1{margin:20px;background-color: white;line-height: 30px;padding:20px;}
+/*text*/
+.text{margin:20px 400px 20px 20px;background-color: white;line-height: 30px;padding:20px;overflow: auto}
 .text h2 {text-align:left;line-height: 50px; font-size: 26px;}
 .text h3{text-align: left;color: darkgray;font-weight: 600;line-height: 40px;font-size: 18px;  }
 .author{color: darkgray;text-align: left;font-weight: 400;line-height: 40px;font-size: 18px;  }
 .texttime{color: darkgray;text-align: left;font-weight: 400;line-height: 40px; font-size: 18px;  }
 
-.text2{background-color: white;line-height: 30px;  margin:20px;padding:20px}
-.text2 li{
-    list-style: none;
-}
 
+/*图片列表*/
+.pic{border:1px solid #333;width:240px;margin:0 20px 20px 0;float:left;}
+.pic img{margin:20px;width:200px;height: 130px;}
+.pic p{text-align: center}
 
+/*这是table*/
+ol{margin-left:50px;}
+ol li{font-size:15px;font-weight:600;text-indent: 10px}
+table{border:1px solid darkgray;width:100%;border-collapse: collapse;}
+th{background-color: black;color:white;text-align: left;border:1px solid darkgray;}
+td{border:1px solid darkgray;}
+.tablesum{font-weight: 600;background-color:darkgray}
+
+/*这是最后一个侧栏表单*/
+.aside{margin:20px;background-color: white;line-height: 30px;padding:20px;width:300px;position:absolute;top:84px;right:20px;}
+.form h3{text-indent: 20px;border-left:3px solid #DCDCDC}
+.formcontent1{float:left;text-align: right;margin-left:100px;}
+.formcontent2{display:block;clear:both;margin-left:100px;padding:20px;}
+.form label{font-family: "Adobe 黑体 Std R";font-size:15px;font-weight: 400;}
+.form p{color:darkgray;line-indent:20px;}
+
+textarea{width:50%;}
+.button{ width:100%;border-radius:10px;color:white;font-size: 19px;border: none;background-color: blue;}
+
+.footer{color:white;font-size:13px;text-align: center;clear:both;}
